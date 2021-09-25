@@ -25,12 +25,13 @@ SECRET_KEY = 'django-insecure-@liq(cuq)7n_)l_9i^a5pko)3d%3+c=l3#e0&uy0^3o!1fd6ml
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['172.245.210.15']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'polls',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -103,7 +104,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-hans'
 
 TIME_ZONE = 'UTC'
 
